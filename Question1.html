@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+    Question 1
+</h1>
+<script>
+
+    var card1 = prompt("Please enter your first card value.");
+    var card2 = prompt ("Please enter your second card value.");
+    var card3 = prompt ("Please enter your third card value.");
+    var total =parseInt(card1)+parseInt(card2)+parseInt(card3);
+    if(total==21)
+    {
+        console.log("Blackjack!!");
+    }
+    else if(total< 21)
+    {
+    console.log("The total is: " +total);
+    }
+    else
+    {
+        console.log("BUST");
+    }
+</script>
+
+</body>
+</html>
